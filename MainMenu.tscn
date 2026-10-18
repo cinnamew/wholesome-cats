@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://ltyt5lpw3w21"]
+
+[ext_resource type="FontFile" uid="uid://cclus2s54v7cg" path="res://Fonts/font_jp_setofont.ttf" id="1_i26rj"]
+[ext_resource type="Texture2D" uid="uid://couj8a1qpq3t5" path="res://Art/UI/speech2.png" id="2_eiy7p"]
+[ext_resource type="Texture2D" uid="uid://dvfqoqs2x7gov" path="res://Art/UI/01world.png" id="3_h7a2f"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_i26rj"]
+texture = ExtResource("2_eiy7p")
+texture_margin_left = 30.0
+texture_margin_top = 30.0
+texture_margin_right = 30.0
+texture_margin_bottom = 30.0
+modulate_color = Color(0.99215686, 0.7294118, 0.78039217, 1)
+
+[node name="MainMenu" type="Control" unique_id=876797496]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="." unique_id=447306381]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -433.0
+offset_top = -192.0
+offset_right = -88.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_i26rj")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_i26rj")
+text = "explore"
+icon = ExtResource("3_h7a2f")
+expand_icon = true
