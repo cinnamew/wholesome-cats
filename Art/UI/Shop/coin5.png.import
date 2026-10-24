@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://couj8a1qpq3t5"
-path="res://.godot/imported/speech2.png-31d79a3aca1c6fa852d9630acc88478a.ctex"
+uid="uid://cpg5pgol2okcf"
+path="res://.godot/imported/coin5.png-24bf1348c6f8fc4fc9542478f8e069c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/UI/speech2.png"
-dest_files=["res://.godot/imported/speech2.png-31d79a3aca1c6fa852d9630acc88478a.ctex"]
+source_file="res://Art/UI/Shop/coin5.png"
+dest_files=["res://.godot/imported/coin5.png-24bf1348c6f8fc4fc9542478f8e069c6.ctex"]
 
 [params]
 

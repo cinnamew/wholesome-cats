@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://ltyt5lpw3w21"]
 
 [ext_resource type="FontFile" uid="uid://cclus2s54v7cg" path="res://Fonts/font_jp_setofont.ttf" id="1_i26rj"]
-[ext_resource type="Texture2D" uid="uid://couj8a1qpq3t5" path="res://Art/UI/speech2.png" id="2_eiy7p"]
-[ext_resource type="Texture2D" uid="uid://dvfqoqs2x7gov" path="res://Art/UI/01world.png" id="3_h7a2f"]
+[ext_resource type="Texture2D" uid="uid://couj8a1qpq3t5" path="res://Art/UI/speech bubbles n stuff/speech2.png" id="2_eiy7p"]
+[ext_resource type="Texture2D" uid="uid://dvfqoqs2x7gov" path="res://Art/UI/Icons/01world.png" id="3_h7a2f"]
+[ext_resource type="Texture2D" uid="uid://y8d7euugmdhx" path="res://Art/UI/speech bubbles n stuff/speech4.png" id="4_qoqlk"]
+[ext_resource type="FontFile" uid="uid://c60opb2keguaa" path="res://Fonts/font_rainyhearts.ttf" id="5_iwfq2"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_i26rj"]
 texture = ExtResource("2_eiy7p")
@@ -40,3 +42,38 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_i26rj")
 text = "explore"
 icon = ExtResource("3_h7a2f")
 expand_icon = true
+
+[node name="border" type="NinePatchRect" parent="." unique_id=943657577]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_qoqlk")
+region_rect = Rect2(0, 0, 128, 128)
+patch_margin_left = 15
+patch_margin_top = 68
+patch_margin_right = 112
+patch_margin_bottom = 15
+
+[node name="HSplitContainer" type="HSplitContainer" parent="border" unique_id=747535080]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.010000001
+anchor_top = 0.020000001
+anchor_right = 0.99000007
+anchor_bottom = 0.083000004
+offset_left = 0.47999954
+offset_top = 0.03999901
+offset_right = -101.4801
+offset_bottom = 0.21599579
+
+[node name="RichTextLabel" type="RichTextLabel" parent="border/HSplitContainer" unique_id=1322991829]
+layout_mode = 2
+theme_override_colors/default_color = Color(0.9882353, 0.35686275, 0.43137255, 1)
+theme_override_fonts/normal_font = ExtResource("5_iwfq2")
+theme_override_font_sizes/normal_font_size = 20
+bbcode_enabled = true
+text = "wholesome cats"

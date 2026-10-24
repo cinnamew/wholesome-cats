@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dv4lggub8kn1p"
-path="res://.godot/imported/03paw.png-9a41563b0a4802a9462168ec2c901e89.ctex"
+uid="uid://y8d7euugmdhx"
+path="res://.godot/imported/speech4.png-106cebfcf5de9026e967c77c51adcd56.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/UI/03paw.png"
-dest_files=["res://.godot/imported/03paw.png-9a41563b0a4802a9462168ec2c901e89.ctex"]
+source_file="res://Art/UI/speech bubbles n stuff/speech4.png"
+dest_files=["res://.godot/imported/speech4.png-106cebfcf5de9026e967c77c51adcd56.ctex"]
 
 [params]
 

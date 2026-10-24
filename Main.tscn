@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://oqqfq0w5h1yl"]
+
+[ext_resource type="PackedScene" uid="uid://ltyt5lpw3w21" path="res://MainMenu.tscn" id="1_glv2v"]
+
+[node name="Main" type="Node" unique_id=987717882]
+
+[node name="MainMenu" parent="." unique_id=876797496 instance=ExtResource("1_glv2v")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=129645368]
+visible = false

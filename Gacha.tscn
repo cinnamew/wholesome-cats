@@ -1,0 +1,133 @@
+[gd_scene format=3 uid="uid://xyg6ikdsyrj4"]
+
+[ext_resource type="Texture2D" uid="uid://biv7hfvrf5jyi" path="res://Art/UI/Shop/boxbackBack.png" id="1_28kxg"]
+[ext_resource type="Texture2D" uid="uid://cnaxhmmshnj0i" path="res://Art/UI/Shop/boxback.png" id="2_fn58g"]
+[ext_resource type="Texture2D" uid="uid://jj0xeihllt6o" path="res://Art/UI/Shop/box.png" id="3_bbm3a"]
+[ext_resource type="Texture2D" uid="uid://8rwm5722kown" path="res://Art/UI/Shop/cat.png" id="3_iccpr"]
+[ext_resource type="FontFile" uid="uid://gjwytbcyjcv7" path="res://Fonts/CandyCrayon - Copy.ttf" id="5_e1hkc"]
+[ext_resource type="Texture2D" uid="uid://bab55rsptoi4y" path="res://Art/UI/Shop/coin.png" id="5_tvjdc"]
+[ext_resource type="Texture2D" uid="uid://cqef22xrkcg0w" path="res://Art/UI/Shop/paw.png" id="5_vkmaw"]
+
+[node name="Gacha" type="Node2D" unique_id=196162310]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1351182414]
+
+[node name="cat gacha" type="Control" parent="CanvasLayer" unique_id=1468207003]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 455.0
+offset_top = 97.0
+offset_right = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="boxbackback" type="TextureRect" parent="CanvasLayer/cat gacha" unique_id=1854555415]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.10966811
+anchor_top = 0.17967331
+anchor_right = 0.8773449
+anchor_bottom = 0.3339383
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_28kxg")
+expand_mode = 1
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="boxback" type="TextureRect" parent="CanvasLayer/cat gacha" unique_id=1624865148]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.10966811
+anchor_top = 0.17967331
+anchor_right = 0.8773449
+anchor_bottom = 0.3339383
+offset_bottom = -6.1035156e-05
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_fn58g")
+expand_mode = 1
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="cat" type="TextureRect" parent="CanvasLayer/cat gacha" unique_id=960477852]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2279942
+anchor_top = -0.08363129
+anchor_right = 0.5945166
+anchor_bottom = 0.3793103
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_iccpr")
+expand_mode = 1
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="box" type="TextureRect" parent="CanvasLayer/cat gacha" unique_id=98458283]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.09235209
+anchor_top = 0.2813067
+anchor_right = 0.8946609
+anchor_bottom = 0.99455535
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_bbm3a")
+expand_mode = 1
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/cat gacha/box" unique_id=230014794]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.019784173
+anchor_top = -0.017811704
+anchor_right = 1.0143884
+anchor_bottom = 1.0407124
+offset_left = 149.0
+offset_top = 189.0
+offset_right = -154.0
+offset_bottom = -98.0
+theme_override_fonts/normal_font = ExtResource("5_e1hkc")
+bbcode_enabled = true
+text = "BREAKING NEWS:
+Hoomans are big clumsy kittens."
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="coin" type="TextureRect" parent="CanvasLayer/cat gacha" unique_id=7397617]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.6825396
+anchor_top = 0.25771326
+anchor_right = 0.790765
+anchor_bottom = 0.3938295
+offset_left = 3.0517578e-05
+offset_right = -0.00012207031
+offset_bottom = 1.5258789e-05
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_tvjdc")
+expand_mode = 1
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="paw" type="TextureRect" parent="CanvasLayer/cat gacha" unique_id=335276268]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.60894656
+anchor_top = 0.15426497
+anchor_right = 0.78210676
+anchor_bottom = 0.36842105
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_vkmaw")
+expand_mode = 1
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
